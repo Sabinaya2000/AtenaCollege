@@ -1,0 +1,210 @@
+
+.navbar{
+    background: #283841;
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+}
+.navbar.active{
+    background: linear-gradient(90deg,rgb(66,2,194) 0%,rgb(0,78,194) 100%);
+    
+}
+.fix{
+    background: red;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    animation: fadeIn 1s;
+}
+@keyframes fadeIn{
+    0%{transform: translateY(-100%);}
+    100%{transform: translateY(0%);}
+}
+.logo{
+    height: 50px;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    color: #fff;
+    margin: 0px 10px;
+}
+.fa-solid{
+    margin: 0px 10px;
+}
+.button{
+    background: skyblue;
+    width: 120px;
+    height: 35px;
+    text-align: center;
+    margin-top: 50px;
+}
+.takeatour{
+    background: rgb(38, 208, 234);
+    color: #fff;
+  border-radius: 5px;
+  width: 150px;
+  &:hover{
+    background: #fff;
+    color:rgb(38, 208, 234);
+  }
+
+}
+.aboutus{
+    border: 1px solid #fff;
+    width: 150px;
+    color: #fff;
+    &:hover{
+        background: #fff;
+        color:rgb(38, 208, 234);
+    }
+}
+.take{
+   display: flex;
+   margin-left: 270px;
+   gap: 30px;
+    
+}
+.excellence{
+    top: 190px;
+}
+.planavisit{
+    position: relative;
+    top: -40px;
+    color: #fff;
+    opacity: 1;
+    left: 20px;
+}
+.girlwalk{
+   background: #000;
+  filter: brightness(0.8);
+  transition: transform .6s;
+  height: 200px;
+  width: 350px;
+  &:hover{
+      -ms-transform: scale(1); /* IE 9 */
+-webkit-transform: scale(1); /* Safari 3-8 */
+transform: scale(1.5); 
+  }
+
+}
+.small{
+    font-size: 13px;
+}
+.students{
+    margin-left: 150px;
+}
+.bulb{
+    margin-left: -80px;
+}
+.students1{
+    margin-left: 350px;
+}
+
+.makeaborder{
+    border: 2px solid skyblue;
+    height: 80px;
+    width: 500px;
+    text-align: center;
+    margin-left: 280px;
+    padding: 22px;
+    a{
+        text-decoration: none;
+        text-transform: uppercase;
+        color: skyblue;
+      
+        &:hover{
+            color: #000;
+            
+        }
+    
+    }
+    &:hover{
+        border: 2px solid #000;
+       
+    }
+}
+.content{
+    color: #fff;
+    margin-bottom: 50px;
+}
+.karla{
+    width: 100px;
+    border-radius: 60px;
+}
+.images{
+    color: #fff;
+}
+.bottom{
+    color: #fff;
+    background: #223038;
+}
+
+.footer{
+    background: #283841;
+}
+.footerlisting{
+    color: #fff;
+    li{
+        list-style: none;
+       
+        a{
+            text-decoration: none;
+        color: gray; 
+        margin-left: -29px;
+        }
+       :hover{
+        color: #fff;
+       }
+    }
+}
+.new{
+    margin-bottom: 55px;
+}
+.form1{
+    height: 50px;
+    width: 500px;
+}
+.subscribe{
+    background: #fff;
+    position: relative;
+    bottom: 120px;
+}
+.subsribe1{
+background: #1cafec;
+width:200px;
+color: #fff;
+border-radius: 0px;
+height: 50px;
+margin-bottom: 5px;
+
+&:hover{
+    background: #000;
+    color: #fff;
+}
+}
+.sameline{
+    display: flex;
+}
+.discoverthecampus{
+    position: relative;
+    bottom: 300px;
+    color: #fff;
+}
+.playvideo1{
+    position: relative;
+    color: #fff;
+     bottom: 280px;
+ left: 550px;
+    font-size: 80px;
+    cursor: pointer;
+    
+}
+.scrolltotop{
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    height: 50px;
+    width: 50px;
+    font-size: 50px;
+   
+}
