@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
     <Body/>
-    <ScrollToTop/>
+   
     </>
   )
 }

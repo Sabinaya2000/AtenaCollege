@@ -2,12 +2,7 @@ import React, { useEffect, useState } from 'react'
 import ScrollToTop from './ScrollToTop';
 
 function Body() {
-  let [post ,setPost]=useState([])
-     useEffect(() => {
-    fetch("https://fakestoreapi.com/products")
-      .then((res) => res.json())
-      .then((data) => setPost(data));
- }, []);
+  
   return (
     <>
     <div id="carouselExampleCaptions" className="carousel slide">
@@ -69,21 +64,21 @@ function Body() {
 <div className='plan container'>
  <div className='row'>
  
-    <div className='girlwalking col-lg-4 py-5'>
+    <div className='girlwalking col-lg-4 py-3'>
 <img className=' girlwalk' src="http://www.ansonika.com/atena/img/news_2_thumb.jpg"/>
 <div className='planavisit'>
 <p><b>PLAN A VISIT</b></p>
 
 </div>
    </div>
-   <div className='girlwalking col-lg-4 py-5'>
+   <div className='girlwalking col-lg-4  py-3'>
 <img className=' girlwalk' src="http://www.ansonika.com/atena/img/news_1_thumb.jpg"/>
 <div className='planavisit'>
 <p><b>PLAN A VISIT</b></p>
 
 </div>
    </div>
-   <div className='girlwalking col-lg-4 py-5'>
+   <div className='girlwalking col-lg-4  py-3'>
 <img className=' girlwalk' src="http://www.ansonika.com/atena/img/news_3_thumb.jpg"/>
 <div className='planavisit'>
 <p><b>PLAN A VISIT</b></p>
@@ -113,87 +108,93 @@ function Body() {
  <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 <div className='col-lg-6'>
 <div className='row  align-items-center py-3'>
  <div className='col-lg-3 text-center'>
- <img className='w-100' src={require('../assets/images/man.jpg')}/>
+ <img className='maninsidecomputer' src={require('../assets/images/man.jpg')}/>
  </div>
- <div className='col-lg-9 text-start'>
-   <h3>Quality Certifications</h3>
-   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in.
-      Nec id tempor imperdiet deterruisset, doctus volumus explicari qui ex, appareat similique an usu.</p>
+ <div className='col-lg-9 text-start qualitycertification'>
+   <h3 className='qualitycertification'>Quality Certifications</h3>
+   <p className='small'>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus<br></br> civibus efficiantur in.
+      Nec id tempor imperdiet deterruisset,<br></br> doctus volumus explicari qui ex, appareat similique an usu.</p>
 
  </div>
 </div>
 
 </div>
+
 
  </div>
  
@@ -212,7 +213,7 @@ function Body() {
  <h2>Atena focus on these ....</h2>
  <h5>Cum doctus civibus efficiantur in imperdiet deterruisset.</h5>
  <div className='row py-5'>
-   <div className='col-lg-4 text-start'>
+   <div className='col-lg-4 text-start studentgrowthfirst'>
      <h5>01.Students growth</h5>
      <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor 
        imperdiet deterruisset,
@@ -221,7 +222,7 @@ function Body() {
    <div className='col-lg-3 bulb'>
      <img src='http://www.ansonika.com/atena/img/graphic.jpg'/>
    </div>
-   <div className='students col-lg-4 text-start'>
+   <div className='students col-lg-4 text-start '>
      <h5>01.Students growth</h5>
      <p>Lorem ipsum dolor sit amet, vix erat audiam ei. Cum doctus civibus efficiantur in. Nec id tempor 
        imperdiet deterruisset,
@@ -272,7 +273,7 @@ eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</h5
      <h5 className='content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, 
 eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</h5>
 <p className='images'>
-       <img className='karla' src=' http://www.ansonika.com/atena/img/testimonial_1.jpg'/> Karla
+       <img className='karla' src=' http://www.ansonika.com/atena/img/testimonial_2.jpg'/> Karla
 
 </p>
      </div>
@@ -283,7 +284,7 @@ eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</h5
      <h5 className='content'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rutrum elit in arcu blandit, 
 eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</h5>
 <p className='images'>
-       <img className='karla' src=' http://www.ansonika.com/atena/img/testimonial_1.jpg'/> Karla
+       <img className='karla' src=' http://www.ansonika.com/atena/img/testimonial_3.jpg'/> Karla
 
 </p>
      </div>
@@ -307,7 +308,7 @@ eget pretium nisl accumsan. Sed ultricies commodo tortor, eu pretium mauris.</h5
    </div>
 
    <div className='discover'>
-     <img src='http://www.ansonika.com/atena/img/bg_content.jpg'/>
+     <img  src='http://www.ansonika.com/atena/img/bg_content.jpg'/>
      
    </div>
    <div className='discoverthecampus text-center'>

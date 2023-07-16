@@ -87,6 +87,10 @@ transform: scale(1.5);
   }
 
 }
+.maninsidecomputer{
+    height: 100px;
+    width: 120px;
+}
 .small{
     font-size: 13px;
 }
@@ -203,8 +207,114 @@ margin-bottom: 5px;
     position: fixed;
     bottom: 50px;
     right: 50px;
-    height: 50px;
-    width: 50px;
+    height: 10px;
+    width: 10px;
     font-size: 50px;
    
+}
+@media screen and (max-width:600px){
+    .makeaborder{
+        border: 2px solid skyblue;
+        height: 80px;
+        width: 350px;
+        text-align: center;
+        margin-left: 50px;
+        padding: 22px;
+        a{
+            text-decoration: none;
+            text-transform: uppercase;
+            color: skyblue;
+          
+            &:hover{
+                color: #000;
+                
+            }
+        
+        }
+        &:hover{
+            border: 2px solid #000;
+           
+        }
+    }
+.studentgrowthfirst{
+    position: absolute;
+    margin-top: 530px;
+}
+.students{
+    margin-left: 0px;
+    padding-top: 120px;
+}
+.students1{
+    margin-left: 0px;
+}
+.discover{
+    margin-left: 0px;
+}
+.discoverthecampus{
+    
+        position: relative;
+        bottom: 300px;
+        color: #fff;
+    
+}
+.playvideo1{
+    position: relative;
+    color: #fff;
+     bottom: 250px;
+ left: 200px;
+    font-size: 50px;
+    cursor: pointer;
+    
+}
+.subsribe1{
+    background: #1cafec;
+    width:200px;
+    color: #fff;
+    border-radius: 0px;
+    height: 50px;
+    margin-top: 50px;
+    margin-bottom: -100px;
+    
+    &:hover{
+        background: #000;
+        color: #fff;
+    }
+    }
+    .form1{
+        height: 50px;
+        width: 400px;
+        margin-top: 30px;
+    }
+    .girlwalk{
+        background: #000;
+       filter: brightness(0.8);
+       transition: transform .6s;
+       height: 200px;
+       width: 450px;
+       &:hover{
+           -ms-transform: scale(1); /* IE 9 */
+     -webkit-transform: scale(1); /* Safari 3-8 */
+     transform: scale(1.5); 
+       }
+     
+     }
+     .maninsidecomputer{
+        float: left;
+        height: 100px;
+        width: 90px;
+        
+     }
+.qualitycertification{
+    position: absolute;
+    margin-left: 100px;
+    font-size: 20px;
+    margin-top: -10px;
+}
+.small{
+    font-size: 13px;
+    margin-top: 20px;
+}
+.bulb{
+    margin-left: -30px;
+}
 }
